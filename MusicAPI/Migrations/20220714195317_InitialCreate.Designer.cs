@@ -10,7 +10,7 @@ using MusicAPI.Data;
 namespace MusicAPI.Migrations
 {
     [DbContext(typeof(ApiDbContext))]
-    [Migration("20220712232249_InitialCreate")]
+    [Migration("20220714195317_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

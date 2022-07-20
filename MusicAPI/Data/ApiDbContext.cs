@@ -7,7 +7,6 @@ namespace MusicAPI.Data
     {
         public ApiDbContext(DbContextOptions<ApiDbContext> options) : base(options)
         {
-
         }
         public DbSet<Song> Songs { get; set; }
         public DbSet<Album> Albums { get; set; }
